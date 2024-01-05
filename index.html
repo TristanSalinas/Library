@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Library</title>
+  </head>
+  <body>
+    <header class="flex flex-justify">
+      <img class="logo" src="icons/bookshelf.svg" alt="" srcset="" />
+
+      <div class="title">
+        <h1>A Simple Library Project,</h1>
+        <h2>following the Javascript path of The Odin Project.</h2>
+      </div>
+    </header>
+    <main class="books-grid grid">
+      <form class="book-card grid" action="">
+        <div class="card-top flex flex-column">
+          <input id="title" type="text" placeholder="Lord of the Ring" />
+          <input id="author" type="text" placeholder="J.R.R Tolkien" />
+          <input id="pages" type="number" placeholder="658 pages" />
+          <fieldset class="flex flex-center">
+            <input type="checkbox" name="finished" id="finished" /><label
+              for="finished"
+              ><img src="icons/read.svg"
+            /></label>
+          </fieldset>
+        </div>
+        <button class="add-button">
+          <img class="icon" src="icons/plusLight.svg" alt="" srcset="" />
+        </button>
+      </form>
+    </main>
+    <footer></footer>
+    <script src="main.js"></script>
+  </body>
+</html>
